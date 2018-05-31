@@ -2,7 +2,7 @@
     "name": "Extension Example",
     "version": "1.0",
     "description": "Building extensions",
-    "permissions": ["storage"],
+    "permissions": ["storage", "tabs", "<all_urls>"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
