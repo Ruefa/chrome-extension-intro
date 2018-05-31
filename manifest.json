@@ -1,0 +1,11 @@
+{
+    "name": "Extension Example",
+    "version": "1.0",
+    "description": "Building extensions",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
